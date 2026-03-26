@@ -192,3 +192,53 @@ footer a {
 footer .fir {
   border-bottom: 1px solid #d7d6d6;
 }
+
+/*  */
+.footer {
+ background-color: #f8f8ff;
+  padding: 60px 0 20px;
+}
+
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.subscribe-box {
+  max-width: 400px;
+}
+
+.subscribe-box .form-control {
+  border-radius: 0;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.subscribe-box .btn-subscribe {
+  border-radius: 0;
+  background-color: #d4af37;
+  color: #000;
+  font-weight: 600;
+  padding: 12px 20px;
+}
+
+.subscribe-box .btn-subscribe:hover {
+  background-color: #c19d2c;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #777;
+}

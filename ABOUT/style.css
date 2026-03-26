@@ -202,3 +202,79 @@ p a {
   text-decoration: underline;
   color: black;
 }
+
+/*  */
+.more-btn {
+  background: transparent;
+  color: #c89b3c;
+  border: 2px solid #c89b3c;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  transition: all 0.6s ease;
+}
+
+.more-btn a {
+  color: #c19d2c;
+  text-decoration: none;
+}
+
+.more-btn a:hover {
+  color: white;
+}
+
+.more-btn:hover {
+  background: #c89b3c;
+  color: white;
+}
+
+/*  */
+.footer {
+ background-color: #f8f8ff;
+  padding: 60px 0 20px;
+}
+
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.subscribe-box {
+  max-width: 400px;
+}
+
+.subscribe-box .form-control {
+  border-radius: 0;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.subscribe-box .btn-subscribe {
+  border-radius: 0;
+  background-color: #d4af37;
+  color: #000;
+  font-weight: 600;
+  padding: 12px 20px;
+}
+
+.subscribe-box .btn-subscribe:hover {
+  background-color: #c19d2c;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+

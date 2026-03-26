@@ -192,7 +192,7 @@ body {
 
 /* Footer */
 .footer {
-  background: #fff;
+  background-color: #f8f8ff;
   padding: 60px 0 20px;
 }
 
@@ -214,12 +214,38 @@ body {
   border-radius: 0;
 }
 
-.subscribe-btn {
+/* .subscribe-btn {
   border: none;
   border-bottom: 1px solid #000;
   background: none;
   font-weight: 600;
+} */
+
+/*  */
+.subscribe-box {
+  max-width: 400px;
 }
+
+.subscribe-box .form-control {
+  border-radius: 0;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.subscribe-box .btn-subscribe {
+  border-radius: 0;
+  background-color: #d4af37;
+  color: #000;
+  font-weight: 600;
+  padding: 12px 20px;
+}
+
+.subscribe-box .btn-subscribe:hover {
+  background-color: #c19d2c;
+}
+
 
 .footer-bottom {
   border-top: 1px solid #ddd;

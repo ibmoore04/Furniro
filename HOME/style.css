@@ -273,6 +273,7 @@ body {
 }
 
 .gallery-section {
+  
   padding: 80px 0;
 }
 
@@ -302,12 +303,21 @@ body {
   margin-bottom: 24px;
 }
 
-footer {
-  border-top: 1px solid #d7d6d6;
+.footer {
+ background-color: #f8f8ff;
+  padding: 60px 0 20px;
 }
 
-footer a {
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer a {
   text-decoration: none;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .subscribe-box {
@@ -334,9 +344,19 @@ footer a {
   background-color: #c19d2c;
 }
 
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
 footer .fir {
   border-bottom: 1px solid #d7d6d6;
 }
+
+
 
 .cart-heading {
   font-size: 1.75rem;
